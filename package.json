@@ -1,0 +1,29 @@
+{
+  "name": "twitter-request",
+  "version": "0.5.0",
+  "description": "Request to the Twitter API",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "request",
+    "api",
+    "oauth"
+  ],
+  "author": "seris",
+  "license": "Apache v2 License",
+  "dependencies": {
+    "request": "^2.36.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Seris/node-twitter-request"
+  },
+  "bugs": {
+    "url": "https://github.com/Seris/node-twitter-request/issues"
+  },
+  "homepage": "https://github.com/Seris/node-twitter-request"
+}
