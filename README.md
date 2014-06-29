@@ -10,7 +10,7 @@ Twitter-Request is a module to make easy authentificated request to the Twitter 
   	
 ## How can i use it
 
-    var TwitterRequest = require('TwitterRequest');
+    var TwitterRequest = require('twitter-request');
 
     var oauth = {
 		// Mandatory
