@@ -63,3 +63,8 @@ Twitter-Request is a module to make easy authentificated request to the Twitter 
 	req.on('data', function(data){
 		console.log(data.toString());
 	});
+
+	
+	// You can find and rewrite oauth data here (This object is passed to the request oauth function)
+	console.log(treq.oauth);
+	treq.oauth.consumer_key = "NEW_CONSUMER_KEY";
